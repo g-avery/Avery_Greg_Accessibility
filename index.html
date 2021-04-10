@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body class="body">
+	<div class="mainNav">
+		<header class="mainHeader">
+			<h2 class="hidden">Main Nav Home Page</h2>
+			<nav class="mainNav">
+				<h2 class="hidden">Main Nav</h2>
+				<div class="logoHeader"><img src="images/svg/rokuLogo.svg" alt="Portfolio Logo"></div>
+				<ul>
+					<li><a style="text-decoration: underline;" href="index.html">Home</a></li>  
+					<li><a href="movies.html">Movies  </a></li>
+					<li><a href="tv.html">TV</a></li>
+					<li><a href="music.html">Music</a></li>
+					<li><a href="favourite.html">Favourite</a></li>
+					<li><a href="accounts.html">Accounts</a></li>
+				</ul>
+			</nav>
+            <p class="copyright">&#169 2021 Roku Inc. All Rights Reserved</p>
+		</header>
+	</div>
+	
+	
+	<div id="siteContainer">
+		<h2 class="hidden">Main Page</h2>
+		<main class="main">
+			<section class="topElement">
+				<h2 class="hidden">Top Elements</h2>
+                <section class="contactForm">
+					<h2 class="hidden">Contact Form</h2>
+					<form action="/includes/mail/send.php" method="POST" id="mail-form">
+						<label for="firstname">First Name</label>
+						<input type="text" id="firstname" name="firstname" placeholder="images/svg/spyGlass.svg" required>
+					</form>
+				</section>
+				<a href="accounts.html"></a><img src=images/svg/profilePic.svg alt="Profile Pic" class=""></a>
+				<a href="settings.html"></a><img src=images/svg/settings.svg alt="Settings Cog" class=""></a>
+			</section>
+
+            <section>
+                <h2 class="hidden">New Releases</h2>
+					<section>
+						<video controls poster="" class="demoReel"> 
+							<source src="assets/mashIntro.mp4">
+						</video>
+						<video controls poster="images/ytvbumper.jpg" class="prjctImgallery"> 
+							<source src="assets/YTV_bumper.mp4">
+						</video>
+						<audio>
+							<source src="assets/come_together.mp3" type="audio/mp3">
+						</audio>
+					</section>
+                <button>Show More</button>
+            </section>
+
+            <section>
+                <h2 class="hidden">Featured</h2>
+                <button>Show More</button>
+            </section>
+
+            <section>
+                <h2 class="hidden">1950's</h2>
+                <button>Show More</button>
+            </section>
+
+            <section>
+                <h2 class="hidden">1960's</h2>
+                <button>Show More</button>
+            </section>
+
+            <section>
+                <h2 class="hidden">1970's</h2>
+                <button>Show More</button>
+            </section>
+
+            <section>
+                <h2 class="hidden">1980's</h2>
+                <button>Show More</button>
+            </section>
+
+            <section>
+                <h2 class="hidden">1990's</h2>
+                <button>Show More</button>
+            </section>
+
+            <footer class="mainFooter">
+				<h2 class="hidden">Main Footer</h2>
+                <img src="images/svg/rokuLogo.svg" alt="Roku Logo" class="footerLogo">
+				<div class="footerLineDiv"><p></p></div>
+				   <section class="socialMedia">
+					<h2 class="hidden">Social Media Links</h2>
+				   		<a href="https://www.facebook.com/"><img src=images/svg/facebook.svg alt="Facebook Link" class="svgIcon"></a>
+						<a href="https://twitter.com/home"><img src=images/svg/twitter.svg alt="Twitter Link" class="svgIcon"></a>
+						<a href="https://www.youtube.com/"><img src=images/svg/youtube.svg alt="Youtube Link" class="svgIcon"></a>
+						<a href="https://www.instagram.com/"><img src=images/svg/instagram.svg alt="Instagram Link" class="svgIcon"></a>
+				   </section>
+                <div class="footerLineDiv"><p></p></div>
+            </footer>
+
+		</main>
+	</div>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</body>
+</html>
