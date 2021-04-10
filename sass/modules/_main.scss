@@ -1,7 +1,3 @@
-@font-face {font-family: "Earth Orbiter"; src: url("assets/fonts/earth_orbiter/earthorbiter.ttf");}
-@font-face {font-family: "Earth Orbiter Extra Bold"; src: url("assets/fonts/earth_orbiter/earthorbiterxtrabold.ttf");}
-@font-face {font-family: "Earth Orbiter Title"; src: url("assets/fonts/earth_orbiter/earthorbitertitle.ttf");}
-
 .hidden {display: none;}
 
 #siteContainer {
@@ -36,18 +32,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b6cc",endCo
 h1 {
     font-size: 30px;
     color: #00b799;
-    font-family: "Earth Orbiter Title", Arial, sans-serif;
+    font-family:  Arial, sans-serif;
 }
 
-h2 {font-family: "Earth Orbiter", Arial, sans-serif; margin: 10px 0px 0px 0px;}
+h2 {font-family:  Arial, sans-serif; margin: 10px 0px 0px 0px;}
 
 h3 {
-    font-family: "Earth Orbiter", Arial, sans-serif;
+    font-family:  Arial, sans-serif;
     font-size: 20px;
     margin: 0px 0px 0px 0px;
 }
 
-p {font-family: "Earth Orbiter", Arial, sans-serif; 
+p {font-family:  Arial, sans-serif; 
     font-size: 18px;
 }
 
@@ -68,4 +64,9 @@ p {font-family: "Earth Orbiter", Arial, sans-serif;
 
 .topElement{
     width: 100%;
+}
+
+.videosShow{
+    width: 20%;
+    height: 40%;
 }
