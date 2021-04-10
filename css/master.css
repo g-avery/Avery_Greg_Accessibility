@@ -1,0 +1,394 @@
+@font-face {
+  font-family: "Earth Orbiter";
+  src: url("assets/fonts/earth_orbiter/earthorbiter.ttf");
+}
+
+@font-face {
+  font-family: "Earth Orbiter Extra Bold";
+  src: url("assets/fonts/earth_orbiter/earthorbiterxtrabold.ttf");
+}
+
+@font-face {
+  font-family: "Earth Orbiter Title";
+  src: url("assets/fonts/earth_orbiter/earthorbitertitle.ttf");
+}
+
+.hidden {
+  display: none;
+}
+
+#siteContainer {
+  width: 80%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  margin-left: 170px;
+}
+
+.mainHeader {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: left;
+          flex-direction: left;
+}
+
+.body {
+  background-color: #696969;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  height: 100%;
+  background: #00b6cc;
+  background: -webkit-gradient(linear, left bottom, left top, from(#00b6cc), color-stop(100%, #a204cf), color-stop(1080%, #ff41fb));
+  background: linear-gradient(0deg, #00b6cc 0%, #a204cf 100%, #ff41fb 1080%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b6cc",endColorstr="#ff41fb",GradientType=1);
+}
+
+h1 {
+  font-size: 30px;
+  color: #00b799;
+  font-family: "Earth Orbiter Title", Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Earth Orbiter", Arial, sans-serif;
+  margin: 10px 0px 0px 0px;
+}
+
+h3 {
+  font-family: "Earth Orbiter", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  font-family: "Earth Orbiter", Arial, sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 642px) {
+  #siteContainer {
+    margin-left: 40px;
+  }
+}
+
+.main {
+  width: 100%;
+}
+
+.topElement {
+  width: 100%;
+}
+
+.heroImg {
+  background-color: black;
+  height: 400px;
+  width: 1300px;
+  margin: 0px 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 15px #272727;
+          box-shadow: 0px 0px 15px #272727;
+}
+
+.ftrdPrjctDivLine {
+  background-color: black;
+  width: 45%;
+  height: 5px;
+  margin: 20px 0px 20px 0px;
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+}
+
+.prjctBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0px 0px 0px 0px;
+}
+
+.prjctBoxes1_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+}
+
+.prjctBoxes3_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 60px;
+}
+
+.prjct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin-right: 20%;
+}
+
+.homePrdctImg {
+  width: 95%;
+  background-color: blue;
+  -webkit-box-shadow: 0px 0px 15px #272727;
+          box-shadow: 0px 0px 15px #272727;
+}
+
+@media screen and (max-width: 642px) {
+  .heroImg {
+    width: 400px;
+    height: 120px;
+  }
+  .prjct {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 50px !important;
+  }
+  .prjctBoxes1_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 10% 100px;
+  }
+  .prjctBoxes3_4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.mainHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.logoHeader {
+  width: 80%;
+  z-index: 1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 14% 0px 0px 10%;
+}
+
+.mainNav {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.mainNav ul {
+  margin-left: 14%;
+  padding: 0 !important;
+}
+
+.mainNav ul li {
+  font-size: 1.5vw;
+  display: inline;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.mainNav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+  font-weight: bold;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.vl {
+  width: 4px;
+  height: 100%;
+  margin: 0px 0px 0px 100%;
+  background-color: black;
+  position: absolute;
+}
+
+.mainFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footerLineDiv {
+  background-color: black;
+  width: 100%;
+  height: 4px;
+  margin: 20px 0px 20px 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Earth Orbiter", sans-serif;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 55%;
+  font-size: 26px;
+}
+
+.footerNav ul li {
+  font-size: 26px;
+  display: inline;
+  cursor: pointer;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 0px;
+}
+
+.footerNav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footerNav ul li a:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+.socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.svgIcon {
+  width: 90%;
+}
+
+.copyright {
+  height: 16px;
+  font-family: "Earth Orbiter", sans-serif;
+  font-size: 18px;
+  color: black;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-bottom: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 642px) {
+  .footerNav ul li {
+    display: inline;
+    cursor: pointer;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-left: 10px;
+  }
+  .footerLineDiv {
+    background-color: black;
+    width: 90%;
+    height: 4px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=master.css.map */

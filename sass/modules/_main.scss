@@ -1,0 +1,71 @@
+@font-face {font-family: "Earth Orbiter"; src: url("assets/fonts/earth_orbiter/earthorbiter.ttf");}
+@font-face {font-family: "Earth Orbiter Extra Bold"; src: url("assets/fonts/earth_orbiter/earthorbiterxtrabold.ttf");}
+@font-face {font-family: "Earth Orbiter Title"; src: url("assets/fonts/earth_orbiter/earthorbitertitle.ttf");}
+
+.hidden {display: none;}
+
+#siteContainer {
+    width: 80%;  
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    margin-left: 170px;
+    
+}
+
+.mainHeader {
+    flex-direction: left;
+}
+
+
+.body {
+    background-color:#696969;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+    background: rgb(0,182,204);
+background: -moz-linear-gradient(0deg, rgba(0,182,204,1) 0%, rgba(162,4,207,1) 100%, rgba(255,65,251,1) 1080%);
+background: -webkit-linear-gradient(0deg, rgba(0,182,204,1) 0%, rgba(162,4,207,1) 100%, rgba(255,65,251,1) 1080%);
+background: linear-gradient(0deg, rgba(0,182,204,1) 0%, rgba(162,4,207,1) 100%, rgba(255,65,251,1) 1080%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b6cc",endColorstr="#ff41fb",GradientType=1);
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #00b799;
+    font-family: "Earth Orbiter Title", Arial, sans-serif;
+}
+
+h2 {font-family: "Earth Orbiter", Arial, sans-serif; margin: 10px 0px 0px 0px;}
+
+h3 {
+    font-family: "Earth Orbiter", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+p {font-family: "Earth Orbiter", Arial, sans-serif; 
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 642px) {
+
+    #siteContainer {
+        margin-left: 40px;
+    }
+}
+
+
+
+
+.main{
+    width: 100%;
+}
+
+.topElement{
+    width: 100%;
+}
